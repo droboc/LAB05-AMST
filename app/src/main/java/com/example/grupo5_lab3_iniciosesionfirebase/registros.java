@@ -19,7 +19,7 @@ public class registros extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_registros);
-        db_reference = FirebaseDatabase.getInstance().getReference().child("GrupoN");
+        db_reference = FirebaseDatabase.getInstance().getReference().child("Grupo5");
         leerRegistros();
     }
 
